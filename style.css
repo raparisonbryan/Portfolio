@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    background: white;
+    padding: 4px 46px 2px;
+}
+
+.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+#menu_choice {
+    display: block;
+}
+
+#menu li {
+    display: inline-flex;
+    margin-right: 20px;
+}
+
+.pdp {
+    width: 187px;
+    height: 200px;
+}
+
+#me {
+    min-height: 85vh;
+    width: 100%;
+    text-align: center;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+#competences {
+    background: midnightblue;
+    color: red;
+    min-height: 60vh;
+    text-align: center;
+
+}
+
