@@ -4,6 +4,13 @@ body {
 
 h1 {
     text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.prenom {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 a {
@@ -13,6 +20,14 @@ a {
 
 a:hover {
    color: cadetblue;
+}
+
+p {
+    font-family: 'Helvetica';
+}
+
+li {
+    font-family: 'Helvetica';
 }
 
 .container {
@@ -55,26 +70,48 @@ a:hover {
 
 .row_me {
     display: grid;
+    grid-template-columns: 400px auto auto;
+    grid-template-rows: 200px 300px 200px;
 }
 
 .pdp {
-    width: 300px;
-    height: 400px;
+    width: 350px;
+    height: 450px;
     grid-column-start: 1;
     grid-row-start: 1;
     grid-row-end: 2;
-    margin-left: 60px;
+    margin-left: 100px;
     margin-top: 20px;
 }
 
-.me_text {
+.fond {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
+    margin-left: 90px;
+
+}
+
+.me_prenom {
+    margin-top: 10% ;
+    grid-column-start: 2;
+    grid-row-start: 1;
+
+}
+
+.me_text {
+    margin-top: 8%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
 }
 
 .explication {
-    grid-column-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    padding: 50px;
+    border-top: 2px solid black;
 }
 
 #competences {
